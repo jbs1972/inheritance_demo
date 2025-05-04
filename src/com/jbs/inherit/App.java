@@ -8,6 +8,9 @@ public class App {
 		B obj1 = new B(10, "AA", 20, "BB");
 		System.out.println(obj1.displayA());
 		System.out.println(obj1);
+		System.out.println();
+		obj1.show();
+		obj1.showX();
 	}
 
 }
